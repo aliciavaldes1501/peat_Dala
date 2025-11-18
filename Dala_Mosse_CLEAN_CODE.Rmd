@@ -71,7 +71,7 @@ library(patchwork)
 This reads the data from the sheet "SDM Data" in the Excel file "Modelling_SDM_species_data_AV.xlsx". Note that you need to change the path to the folder where you have the Excel file
 
 ```{r}
-data_peat<-read_excel("Modelling_SDM_species_data_DLM_par.xlsx",
+data_peat<-read_excel("data/Modelling_SDM_species_data_DLM_par.xlsx",
                       sheet="DLMC")
 
 ```
